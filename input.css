@@ -87,7 +87,9 @@ a {
   color: var(--secondary-color);
   max-width: 592px;
 }
-
+.navbar-toggle {
+  display: none;
+}
 .hero-img-1 {
   display: flex;
   align-items: center;
@@ -97,10 +99,6 @@ a {
 img .img-1 {
   width: 316px;
   height: 56px;
-}
-.hero-img-1 .img-1 {
-  width: 100%;
-  max-width: 150px;
 }
 
 .hero-img {
@@ -669,7 +667,10 @@ img .img-1 {
 }
 
 @media screen and (max-width: 575px) {
-  .menu {
+  .navbar-toggle {
+    display: block;
+  }
+  .menu-names {
     display: none;
   }
   .hero-text .text-1 {
@@ -681,7 +682,8 @@ img .img-1 {
   }
 
   .hero-img-1 {
-    margin-bottom: 32px;
+    width: 320px;
+    height: 50px;
   }
 
   .features {
