@@ -27,11 +27,11 @@
             <li>Promotions</li>
             <li>
               Download
-              <a class="dropdown"><img src="images/Line.svg" alt="" /></a>
+              <span><img src="images/Line.svg" alt="" /></span>
             </li>
             <li>
               Resources
-              <a class="dropdown"><img src="images/Line.svg" alt="" /></a>
+              <span><img src="images/Line.svg" alt="" /></span>
             </li>
             <li>About Us</li>
             <li>Contact</li>
@@ -47,7 +47,9 @@
               find storage services near you
             </p>
           </div>
-          <img class="img-1" src="images/app.svg" alt="" />
+          <div class="hero-img-1">
+            <img class="img-1" src="images/app.svg" alt="" />
+          </div>
         </div>
         <div class="hero-img">
           <img src="images/hero.svg" alt="" />
@@ -56,14 +58,16 @@
     </div>
     <div class="customer-logo">
       <div>
-        <ul class="customer-main">
-          <li><img src="images/client-logo/0.svg" alt="" /></li>
-          <li><img src="images/client-logo/1.svg" alt="" /></li>
-          <li><img src="images/client-logo/2.svg" alt="" /></li>
-          <li><img src="images/client-logo/3.svg" alt="" /></li>
-          <li><img src="images/client-logo/4.svg" alt="" /></li>
-          <li><img src="images/client-logo/5.svg" alt="" /></li>
-        </ul>
+        <marquee direction="left" scrollamount="20" behavior="scroll">
+          <ul class="customer-main">
+            <li><img src="images/client-logo/0.svg" alt="" /></li>
+            <li><img src="images/client-logo/1.svg" alt="" /></li>
+            <li><img src="images/client-logo/2.svg" alt="" /></li>
+            <li><img src="images/client-logo/3.svg" alt="" /></li>
+            <li><img src="images/client-logo/4.svg" alt="" /></li>
+            <li><img src="images/client-logo/5.svg" alt="" /></li>
+          </ul>
+        </marquee>
       </div>
     </div>
     <div class="container">
@@ -193,20 +197,20 @@
             <div class="frame-main">
               <div><img src="images/1.svg" alt="" /></div>
               <div class="main-text">
-                <p class="main-text-1">Move frequently</p>
-                <p class="main-text-2">
+                <div class="main-text-1">Move frequently</div>
+                <div>
                   Families who often move places such as military families,
                   travelers, and many more.
-                </p>
+                </div>
               </div>
             </div>
             <div class="frame-main">
               <div><img src="images/2.svg" alt="" /></div>
               <div class="main-text">
-                <p class="main-text-1">Need storage spaces</p>
-                <p class="main-text-2">
+                <div class="main-text-1">Need storage spaces</div>
+                <div class="main-text-2">
                   People who need storage services near their location.
-                </p>
+                </div>
               </div>
             </div>
           </div>
@@ -214,24 +218,91 @@
             <div class="frame-main">
               <div><img src="images/3.svg" alt="" /></div>
               <div class="main-text">
-                <p class="main-text-1">Business owner</p>
-                <p class="main-text-2">
+                <div class="main-text-1">Business owner</div>
+                <div class="main-text-2">
                   Business owners who can register their businesses on the app.
-                </p>
+                </div>
               </div>
             </div>
             <div class="frame-main">
               <div><img src="images/4.svg" alt="" /></div>
               <div class="main-text">
-                <p class="main-text-1">Other users</p>
-                <p class="main-text-2">
+                <div class="main-text-1">Other users</div>
+                <div class="main-text-2">
                   Other users who need the app to manage item storage.
-                </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="cta">
+      <div class="cta-main">
+        <img class="phone" src="images/phone.svg" alt="" />
+        <div class="hero-menu">
+          <div class="hero-text">
+            <p class="text-1">The easiest way to manage your storage</p>
+            <p class="text-2">
+              The best storage app to manage storage units with a 3D view, and
+              find storage services near you
+            </p>
+          </div>
+          <div><img class="img-1" src="images/app.svg" alt="" /></div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrapper">
+          <div class="footer-desc-box">
+            <div class="white-logo">
+              <img src="images/logo-name-white.svg" alt="site-logo" />
+            </div>
+            <div>
+              <p class="copy-right">Copyright © 2022 unmessify.</p>
+              <p class="copy-right">All rights reserved</p>
+            </div>
+            <div class="google-outline-wrapper">
+              <div class="google-outline">
+                <img src="images/app.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="footer-link-box">
+            <p class="footer-link-title">Company</p>
+            <ul>
+              <li><a href="" class="footer-link">About us</a></li>
+              <li><a href="" class="footer-link">Blog</a></li>
+              <li><a href="" class="footer-link">Contact us</a></li>
+            </ul>
+          </div>
+          <div class="footer-link-box">
+            <p class="footer-link-title">Support</p>
+            <ul>
+              <li><a href="" class="footer-link">FAQ</a></li>
+              <li><a href="" class="footer-link">Terms of service</a></li>
+              <li><a href="" class="footer-link">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="footer-link-title">Stay up to date</p>
+            <form action="">
+              <div class="form-wrapper">
+                <input
+                  type="email"
+                  class="footer-input"
+                  placeholder="Your email address"
+                  required
+                />
+                <button class="submit-btn">
+                  <img src="images/email.svg" alt="" />
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
