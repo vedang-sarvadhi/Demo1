@@ -665,8 +665,20 @@ img .img-1 {
     max-width: 46%;
   }
 }
+.nav-menu {
+  display: none;
+}
 
+.nav-menu.active {
+  display: block;
+}
 @media screen and (max-width: 575px) {
+  .nav-menu {
+    display: block;
+  }
+  .navbar-toggle {
+    display: none;
+  }
   .navbar-toggle {
     display: block;
   }
